@@ -96,6 +96,15 @@ const createEditorAsync = () =>
       $("#button_apply").click(function () {
         returnObj.trigger("apply_code");
       });
+      document.addEventListener("keydown", (e) => {
+        if (e.ctrlKey && e.key === "s") {
+          // Prevent the Save dialog to open
+          e.preventDefault();
+          saveCode();
+          cm.focus();
+          returnObj.trigger("apply_code");
+        }
+      });
 
       resolve(returnObj);
     });
