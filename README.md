@@ -1,11 +1,15 @@
-Elevator Saga
-===================
+# Elevator Saga
+
 The elevator programming game
 
-[Play it now!](http://play.elevatorsaga.com/)
+[Play it now!](https://gutierrezjav.github.io/elevatorsaga-ts/)
 
-Or [Run the unit tests](http://play.elevatorsaga.com/test/)
+Or [Run the unit tests](https://gutierrezjav.github.io/elevatorsaga-ts//test/)
 
-For developers/contributors: This project is not actively maintained. The repo is used to serve github pages so I would like to keep it as is. Feel free to fork and host your own versions of Elevator Saga! But I would like to keep the domain name with the original version of the game.
+![Image of Elevator Saga in browser](https://github.com/user-attachments/assets/5526343b-23e6-43d5-8ae6-34fbe5be27fd)
 
-![Image of Elevator Saga in browser](https://raw.githubusercontent.com/magwo/elevatorsaga/master/images/screenshot.png)
+#### Note
+
+This is a fork of https://github.com/jaredkrinke/elevatorsaga which is a fork of the the original https://github.com/magwo/elevatorsaga.
+
+The WIP goal of this fork is to convert the editor to typescript.
