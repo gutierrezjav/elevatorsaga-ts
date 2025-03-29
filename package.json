@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm http-server ./",
-    "test": "pnpm http-server test/"
+    "start": "pnpm http-server ./src",
+    "test": "pnpm http-server ./src/test/"
   },
   "keywords": [],
   "author": "",
