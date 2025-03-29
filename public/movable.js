@@ -14,7 +14,6 @@ var DEFAULT_INTERPOLATOR = coolInterpolate;
 var _tmpPosStorage = [0, 0];
 
 function Movable() {
-  newGuard(this, Movable);
   unobservable.Observable.call(this);
   var movable = this;
   movable.x = 0.0;

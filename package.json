@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm http-server ./src",
-    "test": "pnpm http-server ./src/test/"
+    "build": "tsc",
+    "start": "pnpm http-server ./public",
+    "test": "pnpm http-server ./public/test/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.5.2",
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
